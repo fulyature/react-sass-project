@@ -1,0 +1,16 @@
+@import "variables";
+.container{
+    .card{
+     h1{
+        color:hotpink;
+     }  
+     h3{
+        color:$green;
+     } 
+     img{
+        width: 100px;
+        border-radius: 50%;
+        margin: 1.5rem 0;
+     }
+    }
+}
