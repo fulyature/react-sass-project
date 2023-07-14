@@ -10,8 +10,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Footer />
+
       <Card data={data} />
+      <Footer />
     </div>
   );
 }

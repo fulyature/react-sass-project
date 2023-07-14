@@ -1,6 +1,11 @@
 @import "variables";
 .container{
     .card{
+        box-shadow: 3px 8px 25px rgba($color: #000000, $alpha: 0.5);
+        max-width: 300px;
+        margin:2rem auto;
+        border-radius: 1rem;
+        padding: 1rem;
      h1{
         color:hotpink;
      }  
@@ -11,6 +16,26 @@
         width: 100px;
         border-radius: 50%;
         margin: 1.5rem 0;
+     }
+     .buttons{
+        button{
+            color: azure;
+            border: none;
+            border-radius: 1rem;
+            margin-right:0.5rem;
+            &:hover{
+cursor: pointer;
+opacity: 0.5;
+            }
+        }
+        .small{
+            padding: 0.8rem;
+            background-color:$olive ;
+        }
+        .large{
+            padding:0.8rem 1.5rem;
+            background-color:$olive ;
+        }
      }
     }
 }
